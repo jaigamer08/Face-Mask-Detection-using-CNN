@@ -111,6 +111,3 @@ This is a large improvement over the initial model's 47.50% test accuracy.
 
 A small dataset (200 images) trained for a fixed number of epochs can reach ~98% *training* accuracy while completely failing to generalise (47.50% test accuracy). Adding **Early Stopping** (alongside Batch Normalization, Dropout, and Data Augmentation) lets training stop at the best-generalising point instead of overfitting, lifting validation accuracy to 80.00% and producing a model that correctly classifies new, unseen photos.
 
-## 📄 License
-
-Add your preferred license here (e.g., MIT).
